@@ -1,0 +1,19 @@
+# Ignore Python caches
+__pycache__/
+*.pyc
+
+
+# Ignore virtual environments
+.venv/
+venv/
+.env
+
+# Ignore environment & secret files
+backend/.env
+backend/service_account.json
+frontend/.env
+agent.py
+email_utils.py
+
+# Ignore system files
+.DS_Store
